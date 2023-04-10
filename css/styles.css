@@ -81,6 +81,9 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.flex-logo {
+  margin-right: 76px;
+}
 
 /* .mail { */
 /* margin-left: auto; */
@@ -168,13 +171,11 @@ button {
   height: 56px;
   border: none;
 }
-
 .btn-order-service:hover,
 .btn-order-service:focus {
   background-color: #404bbf;
   border-radius: 4px;
 }
-
 .title-about {
   font-weight: 700;
   font-size: 36px;
@@ -184,29 +185,24 @@ button {
   color: #2e2f42;
   text-align: center;
 }
-
-.hero {
-  padding-top: 188px;
-  padding-bottom: 204px;
+.flex-hero {
+  padding: 188px 0;
 }
-
+  
 /* ------Section 1------ */
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
-
 .fiex-elemens {
   display: flex;
   flex-wrap: wrap;
   width: calc((100% - 72px) / 4);
 }
-
 .fiex-elemens:nth-last-child(4) {
   margin-right: 0%;
 }
-
 .advantages {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -217,19 +213,21 @@ button {
 
 /* ------Section 2------ */
 .flex-container-jobs {
-  margin-top: 72px;
   display: flex;
   align-items: center;
+  gap: 24px; 
 }
 .flex-elements-job {
   width: 360px;
-  margin-right: 24px;
 }
 .flex-container-jobs:nth-child(3) {
   margin-right: 0;
 }
 .job-images {
   padding-bottom: 120px;
+}
+.flex-title-about {
+  margin-bottom: 72px;
 }
 
 /* ------Section 3------ */
@@ -337,7 +335,7 @@ button {
   row-gap: 48px;
 }
 .flex-cards {
-  width:calc((100% – 48px)/3);
+  width: 360px;
 }
 .flex-cards:nth-child(3n) {
   margin-right: 0;
@@ -359,10 +357,9 @@ button {
 .flex-header-list {
   gap: 40px;
 }
-.flex-container-portfolio {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
+/* .flex-container-portfolio { */
+  /* padding: 32px 16px; */
+  /* border: 1px solid #e7e9fc; */
+  /* border-top: none;} */
 
 
