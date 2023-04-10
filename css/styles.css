@@ -33,17 +33,14 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
-
 img {
   display: block;
 }
-
 button {
   cursor: pointer;
 }
-
 .container {
-  width: 1188px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -61,11 +58,9 @@ button {
   text-decoration: none;
   color: #4D5AE5;
 }
-
 .studio-logo {
   color: #2E2F42;
 }
-
 .menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -74,13 +69,11 @@ button {
   color: #2e2f42;
   text-decoration: none
 }
-
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
   text-decoration: underline;
 }
-
 .contact-mail {
   font-style: normal;
   font-size: 16px;
@@ -89,52 +82,45 @@ button {
   color: #434455;
 }
 
-.mail {
-  margin-left: auto;
-  margin-right: 40px;
-}
+/* .mail { */
+/* margin-left: auto; */
+/* margin-right: 40px;} */
 
 .contact-mail:hover,
 .contact-mail:focus {
   color: #404bbf;
 }
-
 .contacts {
   font-style: normal;
 }
-
 .container-head-flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .navigation {
   display: flex;
   align-items: center;
 }
-
 .menu {
   display: flex;
   align-items: center;
 }
-
 .menu-contact {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
-
 .logo {
   margin-right: 76px;
 }
-
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
-
 .page-header {
-  padding-top: 26px;
-  padding-bottom: 26px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 /* ------Components------ */
@@ -145,7 +131,6 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
 .card-text {
   font-size: 16px;
   line-height: 1.5;
@@ -156,17 +141,19 @@ button {
 /* ------Section Hero----- */
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
-
+.style-title {
+  max-width: 496px
+}
 .main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  width: 496px;
 }
-
 .btn-order-service {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -178,6 +165,10 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   margin-top: 48px;
   border-radius: 4px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .btn-order-service:hover,
@@ -205,13 +196,13 @@ button {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
 }
 
 .fiex-elemens {
   display: flex;
   flex-wrap: wrap;
-  width: 264px;
-  margin-right: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .fiex-elemens:nth-last-child(4) {
@@ -222,6 +213,9 @@ button {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.size-style {
+  margin-bottom: 8px;
+}
 
 /* ------Section 2------ */
 .flex-container-jobs {
@@ -229,16 +223,13 @@ button {
   display: flex;
   align-items: center;
 }
-
 .flex-elements-job {
   width: 360px;
   margin-right: 24px;
 }
-
 .flex-container-jobs:nth-child(3) {
   margin-right: 0;
 }
-
 .job-images {
   padding-bottom: 120px;
 }
@@ -246,62 +237,55 @@ button {
 /* ------Section 3------ */
 .team {
   background-color: #F4F4FD;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-
 .card-description {
   background-color: #FFFFFF;
 }
-
 .title-flex {
-  padding-top: 120px;
   margin-bottom: 72px;
 }
-
 .flex-container-cards {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
-
 .flex-elements-cards {
-  width: 264px;
-  margin-right: 24px;
-}
+  width: calc((100% – 72px)/4);
 
+}
 .flex-elements-cards:nth-child(4) {
   margin-right: 0;
 }
-
-.flex-container-cards {
-  padding-bottom: 120px;
-}
-
 .bottom-title {
   margin-bottom: 8px;
+  text-align: center;
+}
+.flex-card-text {
+  text-align: center;
 }
 
 /* ------Footer------ */
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-
 .studio-logotype {
   color: #F4F4FD;
+  display: inline-block; 
+  margin-bottom: 16px; 
 }
-
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   /* color: #F4F4FD; */
 }
-
-.container-footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.footer-text {
-  margin-top: 16px;
+.content {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 /*------ Portfolio------ */
@@ -317,38 +301,45 @@ button {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-
+.flex-button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  border: 1px solid #e7e9fc
+}
+.flex-button:hover,
+.flex-button:focus {
+  border: 1px solid transparent;
+}
 .all-btn:hover,
 .all-btn:focus {
   color: #FFFFFF;
   background-color: #404BBF;
 }
-
 .logo-footer {
   background-color: #2e2f42;
 }
 .list-flex {
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 24px; 
+  margin-bottom: 72px
 }
 .portfolio-section {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-.button-container {
-  padding-bottom: 72px;
-}
 .flex-list {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .flex-cards {
-  width: 360px;
-  margin-right: 24px;
-  margin-bottom: 48px;
+  width: calc((100% – 48px)/3);
 }
-
 .flex-cards:nth-child(3n) {
   margin-right: 0;
 }
@@ -362,4 +353,17 @@ button {
 .flex-text {
   padding-bottom: 32px;
 }
-  
+.flex-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.flex-header-list {
+  gap: 40px;
+}
+.flex-container-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+
